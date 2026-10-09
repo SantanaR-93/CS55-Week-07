@@ -2,15 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=20.10.0"
-  },  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "gcp-build": "npm run build",
     "start": "next start",
-    "lint": "npm run lint:next && npm run lint:prettier",
+    "lint": "npm run lint:next && npm:lint:prettier",
     "lint:next": "next lint",
     "lint:prettier": "prettier --check --ignore-path .gitignore .",
     "lint:fix": "npm run lint:next -- --fix && npm run lint:prettier -- --write"
