@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "gcp-build": "npm run build",
     "start": "next start",
     "lint": "npm run lint:next && npm run lint:prettier",
     "lint:next": "next lint",
